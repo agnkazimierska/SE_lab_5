@@ -16,9 +16,9 @@ jobs:
       postgres:
         image: postgres:18
         env:
-          POSTGRES_USER: django
-          POSTGRES_PASSWORD: django
-          POSTGRES_DB: testdb
+          POSTGRES_USER: test_developer
+          POSTGRES_PASSWORD: test
+          POSTGRES_DB: test_database
         ports:
           - 5432:5432
         options: >-
