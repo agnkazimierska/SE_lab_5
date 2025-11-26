@@ -58,4 +58,4 @@ jobs:
         env:
           DATABASE_URL: postgres://django:django@localhost:5432/testdb
         run: |
-          python manage.py test
+          python manage.py test medtrackerapp/tests
